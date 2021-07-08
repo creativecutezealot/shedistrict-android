@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.ProfileViews">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ccTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        android:layout_marginBottom="6dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:tabIndicatorColor="#fff"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        app:tabTextAppearance="@style/CustomTextAppearance"
+        app:tabSelectedTextColor="@color/txtPurpal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <com.appentus.shedistrict.Utils.CircleImageView
+        android:id="@+id/ivProfiledot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@color/txtPurpal"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintEnd_toStartOf="@id/vv"/>
+
+    <com.appentus.shedistrict.Utils.CircleImageView
+        android:id="@+id/vv"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        app:layout_constraintStart_toStartOf="@id/tablayout"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintEnd_toEndOf="@id/tablayout"/>
+    <com.appentus.shedistrict.Utils.CircleImageView
+        android:id="@+id/ivBoostsdot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@color/txtPurpal"
+        android:visibility="invisible"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintStart_toEndOf="@id/vv"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintEnd_toEndOf="@id/tablayout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+<FrameLayout
+android:id="@+id/framchild"
+android:layout_weight="1"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+app:layout_constraintTop_toBottomOf="@id/ccTab"
+app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ccDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:background="#FDFDFD"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="6dp"
+                android:text="Schedule a meeting"
+                android:textColor="@color/lightblue"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccMeet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:id="@+id/etMeet"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="8dp"
+                        android:text="Meet with:"
+                        android:textColor="#A9A9A9"
+                        android:textSize="14sp" />
+
+
+                    <ImageView
+                        android:id="@+id/ivPlus"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_plus" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvSubject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/white"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="8dp"
+                android:text="Subject:"
+                android:textColor="#A9A9A9"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/ccMeet" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccType1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="@id/ccMeet"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/tvSubject">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <EditText
+                        android:id="@+id/etType1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="Type something..."
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:textColorHint="#A9A9A9"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/tvReason"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="8dp"
+                android:text="Reason:"
+                android:textColor="#A9A9A9"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/ccType1" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccType2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="@id/ccMeet"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/tvReason">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <EditText
+                        android:id="@+id/etType2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="Type something..."
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:textColorHint="#A9A9A9"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvDob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="8dp"
+                android:text="Set Date:"
+                android:textColor="#A9A9A9"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/ccType2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="@color/activityBg"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toStartOf="@id/ccMonth"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/tvDob">
+
+
+                <Spinner
+                    android:id="@+id/spinnerDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/spinner_dropdown"
+                    tools:listitem="@layout/spinner_item" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccMonth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                app:cardBackgroundColor="@color/activityBg"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/ccDate"
+                app:layout_constraintEnd_toStartOf="@id/ccYYYY"
+                app:layout_constraintStart_toEndOf="@id/ccDate"
+                app:layout_constraintTop_toTopOf="@id/ccDate">
+
+
+
+                <Spinner
+                    android:id="@+id/spinnerMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:padding="2dp"
+                    android:background="@drawable/spinner_dropdown"
+                    tools:listitem="@layout/spinner_item" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccYYYY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="@color/activityBg"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/ccMonth"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ccMonth"
+                app:layout_constraintTop_toTopOf="@id/ccMonth">
+
+
+                <Spinner
+                    android:id="@+id/spinnerYYYY"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:padding="2dp"
+                    android:background="@drawable/spinner_dropdown"
+                    tools:listitem="@layout/spinner_item" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="8dp"
+                android:text="Set Time:"
+                android:textColor="#A9A9A9"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@id/ccYYYY"
+                app:layout_constraintStart_toStartOf="@id/ccDate"
+                app:layout_constraintTop_toBottomOf="@id/ccYYYY" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="@color/activityBg"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toStartOf="@id/ccDes"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/tvTime">
+
+                <TextView
+                    android:id="@+id/tvHour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:drawableRight="@drawable/ic_action_name"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="8dp"
+                    android:text="Time"
+                    android:textColor="#A9A9A9"
+                    android:textSize="14sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccDes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                app:cardBackgroundColor="@color/activityBg"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/ccTime"
+                app:layout_constraintEnd_toStartOf="@id/ccYYYY"
+                app:layout_constraintStart_toEndOf="@id/ccTime"
+                app:layout_constraintTop_toTopOf="@id/ccTime">
+
+
+
+                <Spinner
+                    android:id="@+id/listAm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dp"
+                    android:layout_margin="6dp"
+                    android:textColor="#A9A9A9"
+                    android:background="@drawable/spinner_dropdown"
+                    tools:listitem="@layout/spinner_item" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/etLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="8dp"
+                android:text="Set Location:"
+                android:textColor="#A9A9A9"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@id/ccWriteLocation"
+                app:layout_constraintStart_toStartOf="@id/ccMeet"
+                app:layout_constraintTop_toBottomOf="@id/ccTime" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccWriteLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="@color/activityBg"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etLocation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <EditText
+                        android:id="@+id/etWLocation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="Write location..."
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:textColorHint="#A9A9A9"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/tvMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="8dp"
+                android:text="Read Rules &amp; Tips before sending invitation"
+                android:textColor="#919191"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ccWriteLocation" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccInvitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/lightblue"
+                app:cardCornerRadius="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvMsg">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:id="@+id/tvInvitation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="8dp"
+                        android:text="Send Invitation"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ccNever"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                app:cardCornerRadius="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ccInvitation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:id="@+id/tvNever"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="8dp"
+                        android:text="Nevermind"
+                        android:textAlignment="center"
+                        android:textColor="@color/lightblue" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</LinearLayout>

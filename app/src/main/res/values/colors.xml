@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#f2f2f2</color>
+    <color name="colorAccent">#5a5a5a</color>
+    <color name="white">#ffffff</color>
+    <color name="dialogbackround">#D1D1D1</color>
+    <color name="txtpink">#E29CBD</color>
+    <color name="txtDarkpink">#E85AAB</color>
+    <color name="fbColor">#6878AE</color>
+    <color name="txtPurpal">#4C1F5C</color>
+    <color name="txyellow">#F9D532</color>
+    <color name="yellow">#ffd200</color>
+    <color name="lightgreen">#7FA997</color>
+
+    <color name="activityBg">#ffffff</color>
+    <color name="skyblue">#78E1AC</color>
+    <color name="sblue">#8BF3BC</color>
+    <color name="lightsgreen">#60EDAB</color>
+    <color name="lightblue">#848DF3</color>
+    <color name="meet">#686AED</color>
+    <color name="chip_background">#ffffff</color>
+    <color name="grey">#5a5a5a</color>
+    <color name="lightgrey">#b7b7b7</color>
+    <color name="lightblack">#929292</color>
+    <color name="black">#000</color>
+    <color name="colorLightGrey">#E9E9E9</color>
+    <color name="circleImage">#CACACA</color>
+    <color name="green">#15BC00</color>
+
+</resources>

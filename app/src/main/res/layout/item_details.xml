@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/views"
+            android:layout_above="@+id/ivmore"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp">
+
+        </View>
+        <ScrollView
+            android:layout_below="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_below="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivMore"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentRight="true"
+            android:background="?selectableItemBackground"
+            android:padding="4dp"
+            android:src="@drawable/menu"
+          />
+        <LinearLayout
+            android:id="@+id/a"
+            android:layout_below="@id/ivMore"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="jhvjhv  "
+            />
+
+        <ImageView
+            android:id="@+id/ivMsg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="16dp"
+            android:tint="@color/sblue"
+            android:layout_gravity="center"
+            android:background="?selectableItemBackground"
+            android:src="@drawable/announcemessage"
+            android:layout_toRightOf="@id/tvTime"
+            />
+
+        </LinearLayout>
+
+                <ImageView
+            android:layout_below="@+id/a"
+            android:id="@+id/ivImages"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defaultcollege1" />
+
+                <TextView
+            android:layout_below="@id/ivImages"
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:scaleType="centerCrop"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivImages" />
+
+        <TextView
+            android:layout_below="@id/tvTitle"
+            android:id="@+id/tvDis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:scaleType="centerCrop"
+            android:textColor="@color/black50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivImages" />
+
+        <View
+            android:id="@+id/viewLast"
+            android:layout_below="@+id/tvDis"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="16dp"
+            >
+
+        </View>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

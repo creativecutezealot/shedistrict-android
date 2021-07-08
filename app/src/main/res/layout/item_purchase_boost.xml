@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ccAllAccess"
+    android:layout_width="80dp"
+    android:gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="110dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlBoosts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-10dip"
+        android:layout_marginRight="-10dip"
+        android:background="@drawable/shadowboosts"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="2"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black50"
+            />
+
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="0.99"
+
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@color/txtPurpal" />
+    </RelativeLayout>
+
+</LinearLayout>

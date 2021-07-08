@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBg"
+    android:orientation="vertical"
+    tools:context=".view.activity.UploadSomePicActivity">
+
+    <include
+        android:id="@+id/igTopBar"
+        layout="@layout/toolbar_logo" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/playfair_display_bold"
+                android:text="@string/last_but_not_least_n_upload_some_photos"
+                android:textColor="@color/txtDarkpink"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tvOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/this_step_is_optional"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cc"
+                android:layout_width="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvOther"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_height="wrap_content">
+
+
+                <com.appentus.shedistrict.Utils.CircleImageView
+                android:id="@+id/iv1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/round_dotted"
+                android:src="@drawable/iv_cam_dotted"
+                app:layout_constraintEnd_toStartOf="@id/iv2"
+                app:layout_constraintTop_toTopOf="parent"
+
+             />
+            <com.appentus.shedistrict.Utils.CircleImageView
+                android:id="@+id/iv2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/round_dotted"
+                android:src="@drawable/iv_cam_dotted"
+                app:layout_constraintStart_toEndOf="@id/iv1"
+                app:layout_constraintTop_toTopOf="@id/iv1"
+                app:layout_constraintBottom_toBottomOf="@id/iv1"/>
+
+            <com.appentus.shedistrict.Utils.CircleImageView
+                android:id="@+id/iv3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/round_dotted"
+                android:src="@drawable/iv_cam_dotted"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv1"
+                />
+
+
+            <com.appentus.shedistrict.Utils.CircleImageView
+                android:id="@+id/iv4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/round_dotted"
+                android:src="@drawable/iv_cam_dotted"
+                app:layout_constraintStart_toEndOf="@id/iv3"
+                app:layout_constraintTop_toTopOf="@id/iv3"
+                app:layout_constraintBottom_toBottomOf="@id/iv3"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+          <!--  <com.appentus.shedistrict.Utils.CircleImageView
+                android:visibility="gone"
+                android:id="@+id/iv5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/round_dotted"
+                android:src="@drawable/iv_cam_dotted"
+                app:layout_constraintStart_toEndOf="@id/iv3"
+                app:layout_constraintTop_toTopOf="@id/iv3"
+                app:layout_constraintBottom_toBottomOf="@id/iv4"/>
+            <com.appentus.shedistrict.Utils.CircleImageView
+                android:visibility="gone"
+                android:id="@+id/iv6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/round_dotted"
+                android:src="@drawable/iv_cam_dotted"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv5"
+                app:layout_constraintTop_toTopOf="@id/iv4"
+                app:layout_constraintBottom_toBottomOf="@id/iv4"/>-->
+
+            <ImageView
+                android:id="@+id/ivArr"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="6dp"
+                android:src="@drawable/round_arrow_pink"
+                app:layout_constraintTop_toBottomOf="@id/cc"
+                app:layout_constraintStart_toStartOf="@id/cc"
+                android:layout_marginLeft="6dp" />
+            <ImageView
+                android:id="@+id/ivMore"
+                android:layout_width="100dp"
+                android:layout_height="42dp"
+                android:src="@drawable/the_more"
+                app:layout_constraintStart_toEndOf="@id/ivArr"
+                app:layout_constraintTop_toBottomOf="@id/ivArr"
+                app:layout_constraintBottom_toBottomOf="@id/ivArr"/>
+            <View
+                android:id="@+id/vv1"
+                android:layout_width="1px"
+                android:layout_height="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivArr"
+                app:layout_constraintBottom_toTopOf="@id/ivSubmit"/>
+            <ImageView
+                android:id="@+id/ivSubmit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/forword"
+                app:layout_constraintTop_toBottomOf="@id/vv1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

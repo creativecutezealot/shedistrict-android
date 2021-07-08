@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/llDialog"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlRejected"
+            android:layout_width="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background_verify"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/rejectMessage"
+                android:textColor="@color/white"
+                android:paddingLeft="5dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvRejetcted"
+            android:layout_width="100dp"
+            android:text="Rejected!"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:fontFamily="@font/playfair_display_italic"
+            android:background="@drawable/background_verify_button"
+            android:textColor="@color/lightsgreen"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:text="That sucks!"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/background_verify_button"
+            android:textColor="@color/lightsgreen"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

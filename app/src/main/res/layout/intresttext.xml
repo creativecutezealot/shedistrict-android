@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FDFDFD"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlLocation"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/etText"
+            android:hint="Type in your"
+            android:textSize="13dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/lightblack"
+            android:background="@android:color/transparent"
+            android:backgroundTint="#FDFDFD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <ImageView
+            android:layout_above="@+id/view"
+            android:id="@+id/ic_close"
+            android:layout_width="10dp"
+            android:src="@drawable/ic_close"
+            android:tint="@color/lightblack"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="10dp"/>
+
+           <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/etText"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/lightgrey">
+
+        </View>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

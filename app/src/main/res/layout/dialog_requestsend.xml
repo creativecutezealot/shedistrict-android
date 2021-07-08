@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/llDialog"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rltype"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_verify"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Thank you for submitting your profile for approval. Your\nprofile is in the process of being reviewed by the team\nand you should get a status update within 24 hours."
+                android:textColor="@color/white"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:textSize="13dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvRecived"
+            android:layout_width="100dp"
+            android:text="Recieved!"
+            android:textStyle="italic"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/baske"
+            android:background="@drawable/background_verify_button"
+            android:textColor="@color/lightsgreen"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvGotit"
+            android:layout_width="80dp"
+            android:text="Got it!"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:background="@drawable/background_verify_button"
+            android:textColor="@color/lightsgreen"
+            android:layout_marginTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

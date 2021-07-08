@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#FDFDFD"
+    tools:context=".view.fragments.BoostsPic">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:textColor="#808080"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvBoostAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:textColor="#63466C"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="- Boost again!"/>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBoosViewlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:background="#FDFDFD"
+        android:id="@+id/llBoosts"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#808080"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:text="You haven't boosted yet!"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="#9E9E9E"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="6dp"
+            android:text="Try it out!"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBoostslist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:listitem="@layout/item_purchase"  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:textColor="#9E9E9E"
+            android:text="Why? Boosting helps you get more views/interaction on your profile!">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

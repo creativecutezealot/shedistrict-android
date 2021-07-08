@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBg"
+    tools:context=".view.activity.AuthActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidBase"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_logowithname"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guidBase"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:text="Log In"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/white"
+        android:background="@drawable/light_pink_gradient"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/guidBase"/>
+    <Button
+        android:id="@+id/btSignup"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:text="Sign Up"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/white"
+        android:background="@drawable/dark_pink_gradient"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/btLogin"/>
+
+    <TextView
+        android:id="@+id/tvJoinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/why_join_us"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="8dp"
+        android:textColor="@color/txtpink"
+        android:gravity="center"
+        android:background="?selectableItemBackground"
+        app:layout_constraintStart_toStartOf="@id/btSignup"
+        app:layout_constraintEnd_toEndOf="@id/btSignup"
+        app:layout_constraintTop_toBottomOf="@id/btSignup"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

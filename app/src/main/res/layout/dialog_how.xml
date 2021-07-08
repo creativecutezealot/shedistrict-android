@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ccDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_close" />
+
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivClose"
+
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="6dp"
+        android:text="@string/how"
+        android:textAlignment="center"
+        android:textColor="@color/txtDarkpink"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvMsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="6dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/tvMsg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMsg2"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="6dp"
+        android:text="@string/why1"
+        android:textAlignment="center"
+        android:textColor="@color/txtDarkpink"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/tvMsg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMsg3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="6dp"
+        android:text="@string/whyData"
+        android:textAlignment="center"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+</RelativeLayout>

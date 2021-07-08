@@ -1,0 +1,2561 @@
+{
+  "countries": [
+    {
+      "country_name": "India",
+      "country_isd": "+91",
+      "display": "India (+91)",
+      "cities": [
+        {
+          "city": "Mumbai - Airoli",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Andheri",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Bandra",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Belapur",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Borivali",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Dadar",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Ghatkoper",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Kandivali",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Lower Parel",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Thane",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai - Vashi",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Mumbai",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Delhi - Dwarka",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Faridabad",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Ghaziabad",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Gurgaon",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Indirapuram",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Jankpuri",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Karol Bagh",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Lajpat Nagar",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Laxmi Ngar",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Malviya Nagar",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Model Town",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Noida",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Pitampura",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Punjabi Bagh",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Rajouri Garden",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - RK Puram",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Rohini",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Uttam Nagar",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Vasant Kunj",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi - Vasant Vihar",
+          "state": "Delhi"
+        },
+        {
+          "city": "Delhi",
+          "state": "Delhi"
+        },
+        {
+          "city": "Bengaluru - Electronic city",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Hebbal",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - HSR Layout",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Indiranagar",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - JP Nagar",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Kengeri",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Koramangala",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Malleswaram",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - MG Road",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Rajarajeswari Nagar",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Whitefield",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru - Yelahanka",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bengaluru",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Electronic city",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Hebbal",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - HSR Layout",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Indiranagar",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - JP Nagar",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Kengeri",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Koramangala",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Malleswaram",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - MG Road",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Rajarajeswari Nagar",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Whitefield",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore - Yelahanka",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bangalore",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Hyderabad",
+          "state": "Telangana"
+        },
+        {
+          "city": "Ahmedabad",
+          "state": "Gujarat"
+        },
+        {
+          "city": "Chennai - Adyar",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Annanagar",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Ashok Nagar",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Chromepet",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Egmore",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Medavakkam",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Mylapore",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - OMR",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Parry’s",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Porur",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Red Hills",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Shollinganallur",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - T Nagar",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Thoraipakkam",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Vadapalani",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai - Vandalur",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Chennai",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Kolkata",
+          "state": "West Bengal"
+        },
+        {
+          "city": "Surat",
+          "state": "Gujarat"
+        },
+        {
+          "city": "Pune - Baner",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune - Hadapsar",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune - Kothrud",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune - Nagar Road",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune - Pimpri Chichwad",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune - Satara Road",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune - Shivaji Nagar",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Pune",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Jaipur",
+          "state": "Rajasthan"
+        },
+        {
+          "city": "Lucknow",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Kanpur",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Nagpur",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Indore",
+          "state": "Madhya Pradesh"
+        },
+        {
+          "city": "Thane",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Bhopal",
+          "state": "Madhya Pradesh"
+        },
+        {
+          "city": "Visakhapatnam",
+          "state": "Andhra Pradesh"
+        },
+        {
+          "city": "Patna",
+          "state": "Bihar"
+        },
+        {
+          "city": "Vadodara",
+          "state": "Gujarat"
+        },
+        {
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Ludhiana",
+          "state": "Punjab"
+        },
+        {
+          "city": "Agra",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Nashik",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Faridabad",
+          "state": "Haryana"
+        },
+        {
+          "city": "Meerut",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Rajkot",
+          "state": "Gujarat"
+        },
+        {
+          "city": "Kalyan",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Vasai Virar",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Varanasi",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Srinagar",
+          "state": "Jammu and Kashmir"
+        },
+        {
+          "city": "Aurangabad",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Dhanbad",
+          "state": "Jharkhand"
+        },
+        {
+          "city": "Amritsar",
+          "state": "Punjab"
+        },
+        {
+          "city": "Navi Mumbai",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Allahabad",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Ranchi",
+          "state": "Jharkhand"
+        },
+        {
+          "city": "Haora",
+          "state": "West Bengal"
+        },
+        {
+          "city": "Coimbatore",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Jabalpur",
+          "state": "Madhya Pradesh"
+        },
+        {
+          "city": "Gwalior",
+          "state": "Madhya Pradesh"
+        },
+        {
+          "city": "Vijayawada",
+          "state": "Andhra Pradesh"
+        },
+        {
+          "city": "Jodhpur",
+          "state": "Rajasthan"
+        },
+        {
+          "city": "Madurai",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Raipur",
+          "state": "Chhattisgarh"
+        },
+        {
+          "city": "Kota",
+          "state": "Rajasthan"
+        },
+        {
+          "city": "Guwahati",
+          "state": "Assam"
+        },
+        {
+          "city": "Chandigarh",
+          "state": "Chandigarh"
+        },
+        {
+          "city": "Solapur",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Hubli and Dharwad",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Bareilly",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Moradabad",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Mysore",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Gurgaon",
+          "state": "Haryana"
+        },
+        {
+          "city": "Aligarh",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Jalandhar",
+          "state": "Punjab"
+        },
+        {
+          "city": "Tiruchirappalli",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Bhubaneswar",
+          "state": "Odisha (Orissa)"
+        },
+        {
+          "city": "Salem",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Mira and Bhayander",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Kerala - Thiruvananthapuram",
+          "state": "Kerala"
+        },
+        {
+          "city": "Kerala - Thrissur",
+          "state": "Kerala"
+        },
+        {
+          "city": "Kerala - Kottayam",
+          "state": "Kerala"
+        },
+        {
+          "city": "Kerala - Malappuram",
+          "state": "Kerala"
+        },
+        {
+          "city": "Kerala - Kannur",
+          "state": "Kerala"
+        },
+        {
+          "city": "Bhiwandi",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Saharanpur",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Gorakhpur",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Guntur",
+          "state": "Andhra Pradesh"
+        },
+        {
+          "city": "Bikaner",
+          "state": "Rajasthan"
+        },
+        {
+          "city": "Amravati",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Noida",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Jamshedpur",
+          "state": "Jharkhand"
+        },
+        {
+          "city": "Bhilai Nagar",
+          "state": "Chhattisgarh"
+        },
+        {
+          "city": "Warangal",
+          "state": "Telangana"
+        },
+        {
+          "city": "Cuttack",
+          "state": "Odisha (Orissa)"
+        },
+        {
+          "city": "Firozabad",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Kochi",
+          "state": "Kerala"
+        },
+        {
+          "city": "Bhavnagar",
+          "state": "Gujarat"
+        },
+        {
+          "city": "Dehradun",
+          "state": "Uttarakhand"
+        },
+        {
+          "city": "Durgapur",
+          "state": "West Bengal"
+        },
+        {
+          "city": "Asansol",
+          "state": "West Bengal"
+        },
+        {
+          "city": "Nanded WaghalaNanded",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Kolhapur",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Ajmer",
+          "state": "Rajasthan"
+        },
+        {
+          "city": "Gulbarga",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Jamnagar",
+          "state": "Gujarat"
+        },
+        {
+          "city": "Ujjain",
+          "state": "Madhya Pradesh"
+        },
+        {
+          "city": "Loni",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Siliguri",
+          "state": "West Bengal"
+        },
+        {
+          "city": "Jhansi",
+          "state": "Uttar Pradesh"
+        },
+        {
+          "city": "Ulhasnagar",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Nellore",
+          "state": "Andhra Pradesh"
+        },
+        {
+          "city": "Jammu",
+          "state": "Jammu and Kashmir"
+        },
+        {
+          "city": "Sangli Miraj Kupwad",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Belgaum",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Mangalore",
+          "state": "Karnataka"
+        },
+        {
+          "city": "Ambattur",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Tirunelveli",
+          "state": "Tamil Nadu"
+        },
+        {
+          "city": "Malegaon",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Gaya",
+          "state": "Bihar"
+        },
+        {
+          "city": "Jalgaon",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Udaipur",
+          "state": "Rajasthan"
+        },
+        {
+          "city": "Maheshtala",
+          "state": "West Bengal"
+        }
+      ]
+    },
+    {
+      "country_name": "UAE",
+      "country_isd": "+971",
+      "display": "UAE (+971)",
+      "cities": [
+        {
+          "city": "Abu Dhabi"
+        },
+        {
+          "city": "Ajman"
+        },
+        {
+          "city": "Sharjah"
+        },
+        {
+          "city": "Dubai"
+        },
+        {
+          "city": "Fujairah"
+        },
+        {
+          "city": "Ras Al Khaimah"
+        },
+        {
+          "city": "Umm Al Quwain"
+        }
+      ]
+    },
+    {
+      "country_name": "Bahrain",
+      "country_isd": "+973",
+      "display": "Bahrain(+973)",
+      "cities": [
+        {
+          "city": "Manama"
+        },
+        {
+          "city": "Riffa"
+        },
+        {
+          "city": "Muharaqq"
+        },
+        {
+          "city": "Hamad Town"
+        },
+        {
+          "city": "Aali"
+        },
+        {
+          "city": "Sitra"
+        }
+      ]
+    },
+    {
+      "country_name": "Kuwait",
+      "country_isd": "+965",
+      "display": "Kuwait (+965)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Oman",
+      "country_isd": "+968",
+      "display": "Oman (+968)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Qatar",
+      "country_isd": "+974",
+      "display": "Qatar (+974)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Saudi Arabia",
+      "country_isd": "+966",
+      "display": "Saudi Arabia (+966)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "United Arab Emirates",
+      "country_isd": "+971",
+      "display": "United Arab Emirates (+971)",
+      "cities": [
+        {
+          "city": "Abu Dhabi"
+        },
+        {
+          "city": "Ajman"
+        },
+        {
+          "city": "Sharjah"
+        },
+        {
+          "city": "Dubai"
+        },
+        {
+          "city": "Fujairah"
+        },
+        {
+          "city": "Ras Al Khaimah"
+        },
+        {
+          "city": "Umm Al Quwain"
+        }
+      ]
+    },
+    {
+      "country_name": "Afghanistan",
+      "country_isd": "+93",
+      "display": "Afghanistan (+93)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Albania",
+      "country_isd": "+355",
+      "display": "Albania (+355)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Algeria",
+      "country_isd": "+213",
+      "display": "Algeria (+213)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Andorra",
+      "country_isd": "+376",
+      "display": "Andorra (+376)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Angola",
+      "country_isd": "+244",
+      "display": "Angola (+244)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Anguilla",
+      "country_isd": "+264",
+      "display": "Anguilla (+264)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Antigua and Barbuda",
+      "country_isd": "+268",
+      "display": "Antigua and Barbuda (+268)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Argentina",
+      "country_isd": "+54",
+      "display": "Argentina (+54)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Armenia",
+      "country_isd": "+374",
+      "display": "Armenia (+374)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Aruba",
+      "country_isd": "+297",
+      "display": "Aruba (+297)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ascension Island",
+      "country_isd": "+247",
+      "display": "Ascension Island (+247)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Australia",
+      "country_isd": "+61",
+      "display": "Australia (+61)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Austria",
+      "country_isd": "+0",
+      "display": "Austria (+0)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Azerbaijan",
+      "country_isd": "+994",
+      "display": "Azerbaijan (+994)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bahamas",
+      "country_isd": "+242",
+      "display": "Bahamas (+242)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bangladesh",
+      "country_isd": "+880",
+      "display": "Bangladesh (+880)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Barbados",
+      "country_isd": "+246",
+      "display": "Barbados (+246)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Belarus",
+      "country_isd": "+375",
+      "display": "Belarus (+375)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Belgium",
+      "country_isd": "+32",
+      "display": "Belgium (+32)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Belize",
+      "country_isd": "+501",
+      "display": "Belize (+501)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Benin",
+      "country_isd": "+229",
+      "display": "Benin (+229)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bermuda",
+      "country_isd": "+441",
+      "display": "Bermuda (+441)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bhutan",
+      "country_isd": "+975",
+      "display": "Bhutan (+975)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bolivia",
+      "country_isd": "+591",
+      "display": "Bolivia (+591)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bosnia",
+      "country_isd": "+387",
+      "display": "Bosnia (+387)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Botswana",
+      "country_isd": "+267",
+      "display": "Botswana (+267)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Brazil",
+      "country_isd": "+55",
+      "display": "Brazil (+55)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Brunei",
+      "country_isd": "+673",
+      "display": "Brunei (+673)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Bulgaria",
+      "country_isd": "+359",
+      "display": "Bulgaria (+359)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Burkina Faso",
+      "country_isd": "+226",
+      "display": "Burkina Faso (+226)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Burundi",
+      "country_isd": "+257",
+      "display": "Burundi (+257)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cambodia",
+      "country_isd": "+855",
+      "display": "Cambodia (+855)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cameroon",
+      "country_isd": "+237",
+      "display": "Cameroon (+237)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Canada",
+      "country_isd": "+1",
+      "display": "Canada (+1)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cape Verde Islands",
+      "country_isd": "+238",
+      "display": "Cape Verde Islands (+238)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cayman Islands",
+      "country_isd": "+345",
+      "display": "Cayman Islands (+345)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Central Africa Republic",
+      "country_isd": "+236",
+      "display": "Central Africa Republic (+236)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Chad",
+      "country_isd": "+235",
+      "display": "Chad (+235)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Chile",
+      "country_isd": "+56",
+      "display": "Chile (+56)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "China",
+      "country_isd": "+86",
+      "display": "China (+86)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Columbia",
+      "country_isd": "+57",
+      "display": "Columbia (+57)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Comoros Island",
+      "country_isd": "+269",
+      "display": "Comoros Island (+269)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Congo",
+      "country_isd": "+242",
+      "display": "Congo (+242)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cook Islands",
+      "country_isd": "+682",
+      "display": "Cook Islands (+682)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Costa Rica",
+      "country_isd": "+506",
+      "display": "Costa Rica (+506)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Croatia",
+      "country_isd": "+385",
+      "display": "Croatia (+385)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cuba",
+      "country_isd": "+53",
+      "display": "Cuba (+53)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Cyprus",
+      "country_isd": "+357",
+      "display": "Cyprus (+357)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Czech Republic",
+      "country_isd": "+420",
+      "display": "Czech Republic (+420)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Democratic Republic of Congo (Zaire)",
+      "country_isd": "+243",
+      "display": "Democratic Republic of Congo (Zaire) (+243)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Denmark",
+      "country_isd": "+45",
+      "display": "Denmark (+45)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Diego Garcia",
+      "country_isd": "+246",
+      "display": "Diego Garcia (+246)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Djibouti",
+      "country_isd": "+253",
+      "display": "Djibouti (+253)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Dominica Islands",
+      "country_isd": "+767",
+      "display": "Dominica Islands (+767)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Dominican Republic",
+      "country_isd": "+809",
+      "display": "Dominican Republic (+809)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ecuador",
+      "country_isd": "+593",
+      "display": "Ecuador (+593)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Egypt",
+      "country_isd": "+20",
+      "display": "Egypt (+20)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "El Salvador",
+      "country_isd": "+503",
+      "display": "El Salvador (+503)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Equatorial Guinea",
+      "country_isd": "+240",
+      "display": "Equatorial Guinea (+240)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Eritrea",
+      "country_isd": "+291",
+      "display": "Eritrea (+291)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Estonia",
+      "country_isd": "+372",
+      "display": "Estonia (+372)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ethiopia",
+      "country_isd": "+251",
+      "display": "Ethiopia (+251)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Faeroe Islands",
+      "country_isd": "+298",
+      "display": "Faeroe Islands (+298)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Falkland Islands",
+      "country_isd": "+500",
+      "display": "Falkland Islands (+500)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Fiji Islands",
+      "country_isd": "+679",
+      "display": "Fiji Islands (+679)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Finland",
+      "country_isd": "+358",
+      "display": "Finland (+358)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "France",
+      "country_isd": "+33",
+      "display": "France (+33)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "French Guiana\\xa0",
+      "country_isd": "+594",
+      "display": "French Guiana\\xa0 (+594)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "French Polynesia",
+      "country_isd": "+689",
+      "display": "French Polynesia (+689)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Gabon",
+      "country_isd": "+241",
+      "display": "Gabon (+241)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Georgia",
+      "country_isd": "+995",
+      "display": "Georgia (+995)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Germany",
+      "country_isd": "+49",
+      "display": "Germany (+49)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ghana",
+      "country_isd": "+233",
+      "display": "Ghana (+233)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Gibraltar",
+      "country_isd": "+350",
+      "display": "Gibraltar (+350)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Greece",
+      "country_isd": "+30",
+      "display": "Greece (+30)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Greenland",
+      "country_isd": "+299",
+      "display": "Greenland (+299)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Grenada",
+      "country_isd": "+473",
+      "display": "Grenada (+473)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Guadeloupe",
+      "country_isd": "+590",
+      "display": "Guadeloupe (+590)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Guam",
+      "country_isd": "+671",
+      "display": "Guam (+671)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Guatemala",
+      "country_isd": "+502",
+      "display": "Guatemala (+502)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Guinea Bissau",
+      "country_isd": "+245",
+      "display": "Guinea Bissau (+245)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Guinea Republic",
+      "country_isd": "+224",
+      "display": "Guinea Republic (+224)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Guyana",
+      "country_isd": "+592",
+      "display": "Guyana (+592)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Haiti",
+      "country_isd": "+509",
+      "display": "Haiti (+509)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Honduras",
+      "country_isd": "+503",
+      "display": "Honduras (+503)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Hong Kong",
+      "country_isd": "+852",
+      "display": "Hong Kong (+852)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Hungary",
+      "country_isd": "+36",
+      "display": "Hungary (+36)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Iceland",
+      "country_isd": "+354",
+      "display": "Iceland (+354)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Indonesia",
+      "country_isd": "+62",
+      "display": "Indonesia (+62)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Iran",
+      "country_isd": "+98",
+      "display": "Iran (+98)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Iraq",
+      "country_isd": "+964",
+      "display": "Iraq (+964)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ireland",
+      "country_isd": "+353",
+      "display": "Ireland (+353)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Israel",
+      "country_isd": "+972",
+      "display": "Israel (+972)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Italy",
+      "country_isd": "+39",
+      "display": "Italy (+39)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ivory Coast",
+      "country_isd": "+225",
+      "display": "Ivory Coast (+225)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Jamaica",
+      "country_isd": "+876",
+      "display": "Jamaica (+876)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Japan",
+      "country_isd": "+81",
+      "display": "Japan (+81)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Jordan",
+      "country_isd": "+962",
+      "display": "Jordan (+962)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Kazakhstan",
+      "country_isd": "+7",
+      "display": "Kazakhstan (+7)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Kenya",
+      "country_isd": "+254",
+      "display": "Kenya (+254)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Kiribati",
+      "country_isd": "+686",
+      "display": "Kiribati (+686)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Korea, North",
+      "country_isd": "+850",
+      "display": "Korea, North (+850)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Korea, South",
+      "country_isd": "+82",
+      "display": "Korea, South (+82)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Kyrgyzstan",
+      "country_isd": "+996",
+      "display": "Kyrgyzstan (+996)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Laos",
+      "country_isd": "+856",
+      "display": "Laos (+856)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "latvia",
+      "country_isd": "+371",
+      "display": "latvia (+371)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Lebanon",
+      "country_isd": "+961",
+      "display": "Lebanon (+961)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Lesotho",
+      "country_isd": "+266",
+      "display": "Lesotho (+266)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Liberia",
+      "country_isd": "+231",
+      "display": "Liberia (+231)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Libya",
+      "country_isd": "+218",
+      "display": "Libya (+218)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Liechtenstein",
+      "country_isd": "+423",
+      "display": "Liechtenstein (+423)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Lithuania",
+      "country_isd": "+370",
+      "display": "Lithuania (+370)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Luxembourg",
+      "country_isd": "+352",
+      "display": "Luxembourg (+352)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Macau",
+      "country_isd": "+853",
+      "display": "Macau (+853)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Macedonia (Fyrom)",
+      "country_isd": "+389",
+      "display": "Macedonia (Fyrom) (+389)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Madagascar",
+      "country_isd": "+261",
+      "display": "Madagascar (+261)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Malawi",
+      "country_isd": "+265",
+      "display": "Malawi (+265)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Malaysia",
+      "country_isd": "+60",
+      "display": "Malaysia (+60)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Maldives Republic",
+      "country_isd": "+960",
+      "display": "Maldives Republic (+960)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mali",
+      "country_isd": "+223",
+      "display": "Mali (+223)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Malta",
+      "country_isd": "+356",
+      "display": "Malta (+356)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mariana Islands",
+      "country_isd": "+670",
+      "display": "Mariana Islands (+670)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Marshall Islands",
+      "country_isd": "+692",
+      "display": "Marshall Islands (+692)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Martinique",
+      "country_isd": "+596",
+      "display": "Martinique (+596)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mauritius",
+      "country_isd": "+230",
+      "display": "Mauritius (+230)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mayotte Islands",
+      "country_isd": "+269",
+      "display": "Mayotte Islands (+269)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mexico",
+      "country_isd": "+52",
+      "display": "Mexico (+52)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Micronesia",
+      "country_isd": "+691",
+      "display": "Micronesia (+691)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Moldova",
+      "country_isd": "+373",
+      "display": "Moldova (+373)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Monaco",
+      "country_isd": "+377",
+      "display": "Monaco (+377)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mongolia",
+      "country_isd": "+976",
+      "display": "Mongolia (+976)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Montserrat",
+      "country_isd": "+664",
+      "display": "Montserrat (+664)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Morocco",
+      "country_isd": "+212",
+      "display": "Morocco (+212)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Mozambique",
+      "country_isd": "+258",
+      "display": "Mozambique (+258)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Myanmar (Burma)",
+      "country_isd": "+95",
+      "display": "Myanmar (Burma) (+95)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Namibia",
+      "country_isd": "+264",
+      "display": "Namibia (+264)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Nauru",
+      "country_isd": "+674",
+      "display": "Nauru (+674)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Nepal",
+      "country_isd": "+977",
+      "display": "Nepal (+977)"
+    },
+    {
+      "country_name": "Netherlands",
+      "country_isd": "+31",
+      "display": "Netherlands (+31)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Netherlands Antilles",
+      "country_isd": "+599",
+      "display": "Netherlands Antilles (+599)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "New Caledonia",
+      "country_isd": "+687",
+      "display": "New Caledonia (+687)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "New Zealand",
+      "country_isd": "+64",
+      "display": "New Zealand (+64)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Nicaragua",
+      "country_isd": "+505",
+      "display": "Nicaragua (+505)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Niger",
+      "country_isd": "+227",
+      "display": "Niger (+227)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Nigeria",
+      "country_isd": "+234",
+      "display": "Nigeria (+234)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Niue Island",
+      "country_isd": "+683",
+      "display": "Niue Island (+683)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Norfolk Island",
+      "country_isd": "+672",
+      "display": "Norfolk Island (+672)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Norway",
+      "country_isd": "+47",
+      "display": "Norway (+47)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Pakistan",
+      "country_isd": "+92",
+      "display": "Pakistan (+92)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Palau",
+      "country_isd": "+680",
+      "display": "Palau (+680)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Palestine",
+      "country_isd": "+970",
+      "display": "Palestine (+970)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Panama",
+      "country_isd": "+507",
+      "display": "Panama (+507)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Papua New Guinea",
+      "country_isd": "+675",
+      "display": "Papua New Guinea (+675)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Paraguay",
+      "country_isd": "+595",
+      "display": "Paraguay (+595)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Peru",
+      "country_isd": "+51",
+      "display": "Peru (+51)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Philippines",
+      "country_isd": "+63",
+      "display": "Philippines (+63)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Poland",
+      "country_isd": "+48",
+      "display": "Poland (+48)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Portugal",
+      "country_isd": "+351",
+      "display": "Portugal (+351)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Puerto Rico",
+      "country_isd": "+787",
+      "display": "Puerto Rico (+787)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Reunion Island",
+      "country_isd": "+262",
+      "display": "Reunion Island (+262)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Romania",
+      "country_isd": "+40",
+      "display": "Romania (+40)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Russia",
+      "country_isd": "+7",
+      "display": "Russia (+7)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Rwanda",
+      "country_isd": "+250",
+      "display": "Rwanda (+250)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Samoa (American)",
+      "country_isd": "+684",
+      "display": "Samoa (American) (+684)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Samoa (Western)",
+      "country_isd": "+685",
+      "display": "Samoa (Western) (+685)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "San Marino",
+      "country_isd": "+378",
+      "display": "San Marino (+378)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Sao Tome & Principe",
+      "country_isd": "+239",
+      "display": "Sao Tome & Principe (+239)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Senegal",
+      "country_isd": "+221",
+      "display": "Senegal (+221)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Serbia",
+      "country_isd": "+381",
+      "display": "Serbia (+381)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Seychelles",
+      "country_isd": "+248",
+      "display": "Seychelles (+248)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Sierra Leone",
+      "country_isd": "+232",
+      "display": "Sierra Leone (+232)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Singapore",
+      "country_isd": "+65",
+      "display": "Singapore (+65)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Slovak Republic",
+      "country_isd": "+421",
+      "display": "Slovak Republic (+421)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Slovenia",
+      "country_isd": "+386",
+      "display": "Slovenia (+386)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Solomon Islands",
+      "country_isd": "+677",
+      "display": "Solomon Islands (+677)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Somalia",
+      "country_isd": "+252",
+      "display": "Somalia (+252)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "South Africa",
+      "country_isd": "+27",
+      "display": "South Africa (+27)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Spain",
+      "country_isd": "+34",
+      "display": "Spain (+34)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Sri Lanka",
+      "country_isd": "+94",
+      "display": "Sri Lanka (+94)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "St Helena",
+      "country_isd": "+290",
+      "display": "St Helena (+290)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "St Kitts & Nevia",
+      "country_isd": "+869",
+      "display": "St Kitts & Nevia (+869)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "St Lucia",
+      "country_isd": "+758",
+      "display": "St Lucia (+758)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Sudan",
+      "country_isd": "+249",
+      "display": "Sudan (+249)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Surinam",
+      "country_isd": "+597",
+      "display": "Surinam (+597)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Swaziland",
+      "country_isd": "+268",
+      "display": "Swaziland (+268)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Sweden",
+      "country_isd": "+46",
+      "display": "Sweden (+46)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Switzerland",
+      "country_isd": "+41",
+      "display": "Switzerland (+41)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Syria",
+      "country_isd": "+963",
+      "display": "Syria (+963)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Taiwan",
+      "country_isd": "+886",
+      "display": "Taiwan (+886)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Tajikistan",
+      "country_isd": "+992",
+      "display": "Tajikistan (+992)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Tanzania",
+      "country_isd": "+255",
+      "display": "Tanzania (+255)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Thailand",
+      "country_isd": "+66",
+      "display": "Thailand (+66)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "The Gambia",
+      "country_isd": "+220",
+      "display": "The Gambia (+220)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Togo",
+      "country_isd": "+228",
+      "display": "Togo (+228)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Tonga",
+      "country_isd": "+676",
+      "display": "Tonga (+676)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Trinidad & Tobago",
+      "country_isd": "+868",
+      "display": "Trinidad & Tobago (+868)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Tunisia",
+      "country_isd": "+216",
+      "display": "Tunisia (+216)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Turkey",
+      "country_isd": "+90",
+      "display": "Turkey (+90)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Turkmenistan",
+      "country_isd": "+993",
+      "display": "Turkmenistan (+993)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Turks & Caicos Islands",
+      "country_isd": "+649",
+      "display": "Turks & Caicos Islands (+649)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Tuvalu",
+      "country_isd": "+688",
+      "display": "Tuvalu (+688)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Uganda",
+      "country_isd": "+256",
+      "display": "Uganda (+256)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Ukraine",
+      "country_isd": "+380",
+      "display": "Ukraine (+380)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "United Kingdom",
+      "country_isd": "+44",
+      "display": "United Kingdom (+44)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Uruguay",
+      "country_isd": "+598",
+      "display": "Uruguay (+598)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "USA",
+      "country_isd": "+1",
+      "display": "USA (+1)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Uzbekistan",
+      "country_isd": "+998",
+      "display": "Uzbekistan (+998)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Vanuatu",
+      "country_isd": "+678",
+      "display": "Vanuatu (+678)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Venezuela",
+      "country_isd": "+58",
+      "display": "Venezuela (+58)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Vietnam",
+      "country_isd": "+84",
+      "display": "Vietnam (+84)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Wallis & Futuna Islands",
+      "country_isd": "+681",
+      "display": "Wallis & Futuna Islands (+681)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Yemen Arab Republic",
+      "country_isd": "+967",
+      "display": "Yemen Arab Republic (+967)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Zambia",
+      "country_isd": "+260",
+      "display": "Zambia (+260)",
+      "cities": [
+        {}
+      ]
+    },
+    {
+      "country_name": "Zimbabwe",
+      "country_isd": "+263",
+      "display": "Zimbabwe (+263)",
+      "cities": [
+        {}
+      ]
+    }
+  ]
+}

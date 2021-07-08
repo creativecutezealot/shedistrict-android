@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/igTopBar"
+        layout="@layout/toolbar_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.appentus.shedistrict.Utils.CircleImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_user"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintTop_toTopOf="@+id/ivProfile"
+                app:layout_constraintTop_toBottomOf="@id/ivProfile"
+                app:layout_constraintLeft_toRightOf="@+id/ivProfile"/>
+
+
+              <com.appentus.shedistrict.Utils.CircleImageView
+                  android:visibility="gone"
+                  android:id="@+id/ivOnline"
+                  android:layout_width="8dp"
+                  android:layout_height="8dp"
+                  android:src="@color/yellow"
+                  android:tint="@color/green"
+                  android:layout_marginTop="26dp"
+                  app:layout_constraintLeft_toLeftOf="@id/ivProfile"
+                  app:layout_constraintStart_toStartOf="@id/ivProfile"
+                  app:layout_constraintTop_toTopOf="parent"
+                 />
+
+
+            <LinearLayout
+                android:id="@+id/llImage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintTop_toBottomOf="@id/tvName"
+                app:layout_constraintLeft_toRightOf="@id/ivProfile"
+                app:layout_constraintBottom_toBottomOf="@+id/ivProfile"
+               >
+
+            <ImageView
+                android:id="@+id/ivFav"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/shadow"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dislike" />
+
+
+            <ImageView
+                android:id="@+id/ivInfo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/shadow"
+                android:scaleType="centerCrop"
+                android:src="@drawable/info" />
+
+
+            <ImageView
+                android:id="@+id/ivChat"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/shadow"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chat"/>
+
+
+            <ImageView
+                android:id="@+id/ivMenu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/shadow"
+                android:scaleType="centerCrop"
+                android:src="@drawable/report" />
+
+                <ImageView
+                    android:id="@+id/ivAnouncement"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/shadow"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/announcement" />
+
+            </LinearLayout>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tvMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#919191"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/llImage" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@id/tvAbout"
+                app:layout_constraintTop_toBottomOf="@id/ivProfile"
+                tools:listitem="@layout/item_user_search" />
+
+
+            <TextView
+                android:id="@+id/tvAbout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="@id/tvMsg"
+                app:layout_constraintTop_toBottomOf="@id/rvFriends" />
+
+            <TextView
+                android:id="@+id/tvMsg1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="6dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#919191"
+                app:layout_constraintEnd_toEndOf="@id/tvMsg"
+                app:layout_constraintStart_toStartOf="@id/tvMsg"
+                app:layout_constraintTop_toBottomOf="@id/tvAbout" />
+
+
+            <TextView
+                android:id="@+id/tvLooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="6dp"
+                android:text="I'm looking for friends who:"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="@id/tvMsg"
+                app:layout_constraintTop_toBottomOf="@id/tvMsg1" />
+
+            <TextView
+                android:id="@+id/tvMsg2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="6dp"
+                android:ellipsize="end"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#919191"
+                app:layout_constraintEnd_toEndOf="@id/tvMsg"
+                app:layout_constraintStart_toStartOf="@id/tvMsg"
+                app:layout_constraintTop_toBottomOf="@id/tvLooking" />
+
+            <LinearLayout
+                android:id="@+id/llAccount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvMsg2">
+
+
+                <ImageView
+                    android:id="@+id/ivtwitter"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="6dp"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/twitter" />
+
+                <ImageView
+                    android:id="@+id/insta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:padding="6dp"
+                    android:src="@drawable/insta" />
+
+
+            </LinearLayout>
+
+           <!-- <View
+                android:layout_width="1px"
+                android:layout_height="0dp"
+                android:layout_margin="16dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvMsg2" />
+
+-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,682 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SheDistrict</string>
+    <string name="why_join_us">Why Join Us?</string>
+    <string name="joinusMsg">Here you are, sitting at home, scrolling through social media and
+        watching the people you follow or used to go to school with get ready for a night out on the
+        town with their girl friends.\n\n You wake up from sleeping in on a Saturday afternoon,
+        checking your social media, and the first thing you see are pictures of a fabulous brunch party or two
+        friends at the museum, You can’t help but think to yourself, \"I wish that were me!\".
+        \n\n Hey girl! That’s why SheDistrict is here.
+        We are dedicated to making sure you find your perfect (friend) fit. Whether you’re single
+        and looking for another girl to go meet people with, whether you\'ll need bridesmaids for your future wedding, or if you\’re new in town, we want to help you find your one
+        true friend… or a few!</string>
+    <string name="sign_up_with">Sign Up with:</string>
+    <string name="already_have_an_account_log_in">Already have an account?</string>
+    <string name="please_fill_in_the_details_to_create_the_account">Please fill in the details to create the account:</string>
+    <string name="user_name">User name</string>
+    <string name="whats_fav_color">What\'s your favorite color?</string>
+    <string name="new_password">New Password</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="your_phone_number">Your phone number</string>
+    <string name="confirm_password">Confirm new Password</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="type_your_answer">Type in your answer</string>
+    <string name="mob">Phone Number (Optional)</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="create_your_profile">Create Your Profile!</string>
+    <string name="choose_to_either">Choose to either:</string>
+    <string name="do_both">Do both</string>
+    <string name="write_bio">Write a bio</string>
+    <string name="write_a_couple_of_things_that_about_you">Write a couple of things that about you...</string>
+    <string name="verification_methods">Verification Methods:</string>
+    <string name="why_am_i_seeing_this">Why am I seeing this?</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="verify_yourself">Verify Yourself</string>
+    <string name="inst">Instructions</string>
+    <string name="here_is_proper_example_how_the_pose_should_be_taken_for_the_verification_process">Here is proper example how the pose should be taken for the verification process.</string>
+    <string name="topics">Topics:</string>
+    <string name="state_your_name_age_and_location_n_choose_one_of_the_topics_below">-State your name, age and location  \n-Choose one of the topics below</string>
+    <string name="writeVideo">-What is your favorite thing to do on the weekend? \n-Why did you join SheDistrict? \n-What are you hoping to gain from SheDistrict? \n-Who is your favorite singer? </string>
+    <string name="verification_completed_successfully">Verification Completed \nSuccessfully!</string>
+    <string name="thank_you">Thank You</string>
+    <string name="toensure">To ensure that you are who you say you are \nand to keep our promise that this remains \n a woman\'s only app, we\'d really appreciate it \nif you upload a 10-30 second video to verify \n yourself.</string>
+    <string name="you_don_t_want_to_upload_a_video">You don\'t want to upload a video?</string>
+    <string name="that_s_perfectly_fine_we_will_always_respect_your_decision_a_picture_is_enough">That\'s perfectly fine! We will always respect \nyour decision. A picture is enough :)</string>
+    <string name="disclaimer">Disclaimer:</string>
+    <string name="this_will_not_be_posted_on_your_profile_and_this_will_not_be_posted_publicly_this_is_strictly_for_verification_purpose_only">This will not be posted on your profile and \nthis will not be posted publicly. This is strictly \nfor verification purpose only.</string>
+    <string name="record_intro">Record Intro</string>
+    <string name="record_intro_write_bio"><![CDATA[Record Intro & Write Bio]]></string>
+    <string name="last_but_not_least_n_upload_some_photos">Show us your pretty face!</string>
+    <string name="this_step_is_optional">This step is optional</string>
+    <string name="please_fill_in_the_details_to_login">Please fill in the details to login:</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="choose_diffrent_type">Choose a different type of verification:</string>
+    <string name="answer_Question">Answer the security question below</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY" tools:ignore="ExtraTranslation">h29m1bC0y28m4BDqw3Qfwb2GO</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET" tools:ignore="ExtraTranslation">DqvM505kI7jbj6poeu7qZqoMOJk0XG3OrMJJrrqvMBNShW8u5L</string>
+
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="resetpass">Reset your password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="show_all">Categories</string>
+    <string name="today_8_40_pm">Today, 8:40 PM</string>
+    <string name="remove"><u>Remove</u></string>
+    <string name="replace"><u>Replace</u></string>
+    <string name="Dis">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </string>
+
+    <string name="announce">I sent Aryana a message because I saw that she really enjoyed eating steak like I do. I sent her a mesage and we scheduled to meet for lunch at Ruth’s Steakhouse. It was such a great time. Aryana is the friend I’ve been loking for. Every girl needs a friend who loves to get fat off of food as much as she does.
+Thank you, SheDistrict!</string>
+    <string name="postDetail">Lisa Rose Recently graduated from Pace University with a Masters in Psychology with a concentration in Behavioral and Social Science. She is now a social entrepreneur passionate about creating a space for women to connect with other like-minded women.</string>
+
+    <string name="you_want_to_delete_this_post">You want to delete this post,</string>
+    <string name="result_based_on_your_preferences">Result based on your preferences</string>
+    <string name="we_ve_been_very_good_internet_friends_alina_let_s_meet">We\'ve been very good internet friends Alina let\'s meet!</string>
+    <string name="dummyAddress">9974 Lookout St. Brooklyn, NY 11237, Times Caffe</string>
+    <string name="date">05.11.19</string>
+    <string name="where">Where?</string>
+    <string name="what">What?</string>
+    <string name="when">When?</string>
+    <string name="what_time">What time?</string>
+    <string name="i_will_thing_about_it">I will think about it</string>
+    <string name="you_want_to_be_their_friend_send_a_message">You want to be their friend, send a message!!</string>
+    <string name="_8_40_am">8:40 AM</string>
+    <string name="chooseCategory">Choose Category</string>
+    <string name="titleShort">Title ( keep it short )</string>
+    <string name="preview">Preview</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="submitDialogText">Your announcement</string>
+
+    <string name="submitDialogText1">has been posted!</string>
+    <string name="reportMessage">Is this member bothering you \n or harrasing you?</string>
+    <string name="why">Why do you want to \n report her?</string>
+    <string name="whypost">Why do you want to \n report Post?</string>
+    <string name="reportUpdateMessage">Thanks for letting us known!</string>
+    <string name="reportUpdateMessage1">we are sorry that this person made you feel \n this way and we take your concerns very \n seriously.</string>
+    <string name="reportUpdateMessage2">we will look into this. \n In this meantime, this person will disappear \n from your messages but you will still see them \n in other sections of SheDistrict, unless you \n block them!</string>
+    <string name="blockUpdateMessage">Oh boy, we\'re sorry that \n it had to come to this.</string>
+    <string name="blockUpdateMessage1">This person has been blocked from seeing your \n profile and you posts, and you won\'t see their \n profile or their posts either.</string>
+    <string name="blockUpdateMessage2">If you have a change of heart, you can go to \n your settings and unblock them.</string>
+    <string name="how">How this works</string>
+    <string name="howData">Both of you are receiving this message at the same time.\n
+If both of you say yes, you will bre taken to a page to schedule a girl date.\n
+If both of you say no, your messages will dissapear, but you will still see this person in the browse section if you would like to connect with them again.\n
+If you say yes and she says no, your messages will be paused and you won’t be able to contact each other until you are ready to meet.</string>
+    <string name="why1">Why?</string>
+    <string name="whyData">This is how we encourage meeting in person. \n We understand that people get busy, but it is \n important to be able to communicate offline as \n well. We think that two weeks is more than enough time to make yourselves comfortable \n with meeting offline.
+ Disagree? Tell us why here</string>
+
+    <string name="rule1">1. Before meeting, make sure you have a good sense of who the person you’re meeting is:\n
+                            * Confirm that their pictures are real\n
+                            *Exchange numbers and have conversation or video chat before meeting.</string>
+    <string name="rule2">
+        2. Do not give away any personal information ( i.e., your address). </string>
+    <string name="rule3">
+        3. Let close friends and family members know where you are going to meet this person.
+            *Optional: Activate SheProtects to be able to access your friends, family, pr police department discreetly.</string>
+
+    <string name="rule4">
+        4. Do not meet in areas you’re unfamiliar with.</string>
+    <string name="rule5">
+        5. Call the venue you’re meeting at ahead of time to let them know you are visiting to meet with someone</string>
+    <string name="rule6">
+        6. Most importantly, have fun</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="helpText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Awesome! You accepted an invitation from (username). Check under your “events” tab to keep track of your upcoming and pending events! Well that’s okay! No pressure. However, if you change your mind, you still can create your own event and invite (username). You’ve been invited! If you change your mind, your invitation is saved at pending invitations.</string>
+
+
+    <string name="messageForCeo">
+Nothing inspired the vision and development of \n SheDistrict more than the fact that I faced a huge \n problem that I know other women are also facing \n -the lack of friendships and connections being made \n with each other. It was February 2019 when \n I realized that I wanted to stop complaining about not being able to make friends in a big city \n and actually solve the problem by creating something \n that would eventually turn out to be bigger than \n myself.
+</string>
+
+
+    <string name="sheRuleTilte1">
+        1. Be Unapologetic</string>
+    <string name="sheRule1">
+SheDistrict allows women to connect with other women from all walks of life. From stay at home moms to trophy wives and college girls to forever princesses -- SheDistrict is dedicated to being a space for all types of hobbies, interests and lifestyle. No judgement allowed.
+    </string>
+
+
+    <string name="sheRuleTitle2">2. Set Healthy Boundaries</string>
+    <string name="sheRule2">
+The reason that SheDistrict is for women only is so that women have a space where they can feel safe to make friends and be social. Setting healthy boundaries is crucieal for any friendship to last.
+    </string>
+
+
+    <string name="sheRuleTitle3">3. Trust and Loyalty</string>
+    <string name="sheRule3">
+    Friendships can’t prosper without trust and loyalty.You’re here either because you’d like to
+    welcome more like-minded women into your circle or you agree that sometimes it is hard to make
+    friends, so SheDistrict is an option for you. Regardles of why you’ve joined us, it is important
+    that any woman you decide to become friends with knows that she can trust you and that your
+        loylaty is to your friendship. Girl Power!</string>
+
+    <string name="sheRuleTitle4">
+        4. Commitment and Consistency</string>
+    <string name="sheRule4">
+    You are all here for the same goal: to make friends and connections with those whose beliefs and
+    values align with yours. It is important to be commited to creating and building your
+    friendships and consictency is key in maintaining these friendships as well. SheDistrict
+    encourages it’s members to get offline and be friends in person!
+    </string>
+    <string name="sheRuleTitle5">
+        5. Respect Each Other</string>
+    <string name="sheRule5">
+        The best thing about SheDistrict is the freedom to choose. SheDistrict’s goal is to alow you to
+    choose who you want to be friends with and who you want to associate with. SheDistrict has zero
+    tolerance for abuse or harassment. We’ve made it so that you have access to the filters that
+    allow you to show or hide profiles.
+    </string>
+    <string name="sheRuleTitle6">
+    6. Have Fun!
+        </string>
+    <string name="sheRule6">
+    We’re all here to have a good time, make connections, and make long term friendships.
+    I have read the rules and I agree
+</string>
+
+    <string name="deactivateAccount">
+        Are you sure you  want to deactivate \n your profile?
+    </string>
+    <string name="deleteAccount">
+        Are you sure you  want to delete \n your profile?
+    </string>
+
+
+    <string name="sheProtestTitle">What is SheProtects?</string>
+    <string name="sheProtestTitle1">We know that going out alone, or with friends,\n can be  dangerous. We’ve incorporated an\n emergency contact list  where you can send a\n mass text or make a call to a trusted member\n (or a few). If you really feel that you’re in\n danger, you can also contact your local police\n department.
+    </string>
+
+    <string name="record">Record</string>
+    <string name="more"><![CDATA[<b><font color=#FF4CD964>(10 or more)</font></b>]]></string>
+    <string name="moree"><font fgcolor='#FFFF3B30'>Stopped</font></string>
+    <string name="stop">Stop</string>
+    <string name="description_info">Info</string>
+    <string name="permission_request">This sample needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="facebook_app_id">175836090332502</string>
+
+    <string name="whatSheProtest"><u>What is SheProtects?</u></string>
+
+    <string name="yyyMMddHHMMSS">yyyy-MM-dd hh:mm:ss</string>
+    <string name="HHMMA">hh:mm a</string>
+
+    <string-array name="countries_array">
+        <item>Afghan</item>
+        <item>Åland Island</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>American Samoan</item>
+        <item>Angolan</item>
+        <item>Anguillan</item>
+        <item>Antarctic</item>
+        <item>Antiguan or Barbudan</item>
+        <item>Argentine</item>
+        <item>Armenian</item>
+        <item>Andorran</item>
+        <item>Aruban</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Azerbaijani, Azeri</item>
+        <item>Bahamian</item>
+        <item>Bahraini</item>
+        <item>Bangladeshi</item>
+        <item>Barbadian</item>
+        <item>Belarusian</item>
+        <item>Belgian</item>
+        <item>Belizean</item>
+        <item>Beninese, Beninois</item>
+        <item>Bermudian, Bermudan</item>
+        <item>Bhutanese</item>
+        <item>Bolivian</item>
+        <item>Bonaire</item>
+        <item>Bosnian or Herzegovinian</item>
+        <item>Motswana, Botswanan</item>
+        <item>Bouvet Island</item>
+        <item>Brazilian</item>
+        <item>BIOT</item>
+        <item>Bruneian</item>
+        <item>Bulgarian</item>
+        <item>Burkinabé</item>
+        <item>Burundian</item>
+        <item>Cabo Verdean</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Caymanian</item>
+        <item>Central African</item>
+        <item>Chadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Christmas Island</item>
+        <item>Cocos Island</item>
+        <item>Colombian</item>
+        <item>Comoran, Comorian</item>
+        <item>Congolese</item>
+        <item>Congolese</item>
+        <item>Cook Island</item>
+        <item>Costa Rican</item>
+        <item>Ivorian</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Curaçaoan</item>
+        <item>Cypriot</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Djiboutian</item>
+        <item>Dominican</item>
+        <item>Dominican</item>
+        <item>Ecuadorian</item>
+        <item>Egyptian</item>
+        <item>Salvadoran</item>
+        <item>Equatorial Guinean, Equatoguinean</item>
+        <item>Eritrean</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>Falkland Island</item>
+        <item>Faroese</item>
+        <item>Fijian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>French Guianese</item>
+        <item>French Polynesian</item>
+        <item>French Southern Territories</item>
+        <item>Gabonese</item>
+        <item>Gambian</item>
+        <item>Georgian</item>
+        <item>Germany", "German</item>
+        <item>Ghanaian</item>
+        <item>Gibraltar</item>
+        <item>Greek, Hellenic</item>
+        <item>Greenlandic</item>
+        <item>Grenadian</item>
+        <item>Guadeloupe</item>
+        <item>Guamanian, Guambat</item>
+        <item>Guatemalan</item>
+        <item>Channel Island</item>
+        <item>Guinean</item>
+        <item>Bissau-Guinean</item>
+        <item>Guyanese</item>
+        <item>Haitian</item>
+        <item>Heard Island or McDonald Islands</item>
+        <item>Vatican</item>
+        <item>Honduran</item>
+        <item>Hong Kong, Hong Kongese</item>
+        <item>Hungarian, Magyar</item>
+        <item>Icelandic</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian, Persian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Manx</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Channel Island</item>
+        <item>Jordanian</item>
+        <item>Kazakhstani, Kazakh</item>
+        <item>Kenyan</item>
+        <item>I-Kiribati</item>
+        <item>North Korean</item>
+        <item>South Korean</item>
+        <item>Kuwaiti</item>
+        <item>Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz</item>
+        <item>Lao, Laotian</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Basotho</item>
+        <item>Liberian</item>
+        <item>Libyan</item>
+        <item>Liechtenstein</item>
+        <item>Lithuanian</item>
+        <item>Luxembourg, Luxembourgish</item>
+        <item>Macanese, Chinese</item>
+        <item>Macedonian</item>
+        <item>Malagasy</item>
+        <item>Malawian</item>
+        <item></item>
+        <item>Maldivian</item>
+        <item>Malian, Malinese</item>
+        <item>Maltese</item>
+        <item>Marshallese</item>
+        <item>Martiniquais, Martinican</item>
+        <item>Mauritanian</item>
+        <item>Mauritian</item>
+        <item>Mahoran</item>
+        <item>Mexican</item>
+        <item>Micronesian</item>
+        <item>Moldovan</item>
+        <item>Monégasque, Monacan</item>
+        <item>Mongolian</item>
+        <item>Montenegrin</item>
+        <item>Montserratian</item>
+        <item>Moroccan</item>
+        <item>Mozambican</item>
+        <item>Burmese</item>
+        <item>Namibian</item>
+        <item>Nauruan</item>
+        <item>Nepali, Nepalese</item>
+        <item>Dutch, Netherlandic</item>
+        <item>New Caledonian</item>
+        <item>New Zealand, NZ</item>
+        <item>Nicaraguan</item>
+        <item>Nigerien</item>
+        <item>Nigerian</item>
+        <item>Niuean</item>
+        <item>Norfolk Island</item>
+        <item>Northern Marianan</item>
+        <item>Norwegian</item>
+        <item>Omani</item>
+        <item>Pakistani</item>
+        <item>Palauan</item>
+        <item>Palestinian</item>
+        <item>Panamanian</item>
+        <item>Papua New Guinean, Papuan</item>
+        <item>Paraguayan</item>
+        <item>Peruvian</item>
+        <item>Philippine, Filipino</item>
+        <item>Pitcairn Island</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Puerto Rican</item>
+        <item>Qatari</item>
+        <item>Réunionese, Réunionnais</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Rwandan</item>
+        <item>Barthélemois</item>
+        <item>Saint Helenian</item>
+        <item>Kittitian or Nevisian</item>
+        <item>Saint Lucian</item>
+        <item>Saint-Martinoise</item>
+        <item>Saint-Pierrais or Miquelonnais</item>
+        <item>Saint Vincentian, Vincentian</item>
+        <item>Samoan</item>
+        <item>Sammarinese</item>
+        <item>São Toméan</item>
+        <item>audi, Saudi Arabian</item>
+        <item>Senegalese</item>
+        <item>Serbian</item>
+        <item>Seychellois</item>
+        <item>Sierra Leonean</item>
+        <item>Singaporean</item>
+        <item>Sint Maarten</item>
+        <item>Slovak</item>
+        <item>Slovenian, Slovene</item>
+        <item>Solomon Island</item>
+        <item>South Georgia or South Sandwich Islands</item>
+        <item>Somalia", "Somali, Somalian</item>
+        <item>710", "ZA", "ZAF", "South Africa", "South African</item>
+        <item>South Sudanese</item>
+        <item>Spanish</item>
+        <item>Sri Lankan</item>
+        <item>Sudanese</item>
+        <item>Surinamese</item>
+        <item>Svalbard</item>
+        <item>Swazi</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Chinese, Taiwanese</item>
+        <item>Tajikistani</item>
+        <item>Tanzanian</item>
+        <item>Thai</item>
+        <item>Timorese</item>
+        <item>Togolese</item>
+        <item>Tokelauan</item>
+        <item>Tongan</item>
+        <item>Trinidadian or Tobagonian</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Turkmen</item>
+        <item>Turks and Caicos Island</item>
+        <item>Tuvaluan</item>
+        <item>Ugandan</item>
+        <item>Ukrainian</item>
+        <item>Emirati, Emirian, Emiri</item>
+        <item>British, UK</item>
+        <item>American</item>
+        <item>American</item>
+        <item>Uruguayan</item>
+        <item>Uzbekistani, Uzbek</item>
+        <item>Ni-Vanuatu, Vanuatuan</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>British Virgin Island</item>
+        <item>U.S. Virgin Island</item>
+        <item>Wallis and Futuna, Wallisian or Futunan</item>
+        <item>Sahrawi, Sahrawian, Sahraouian</item>
+        <item>Yemeni</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+
+    </string-array>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+    <string name="sendRequest">
+        Thank you for submitting your profile for approval. Your \n profile is in the process of being reviewed by the team \n and you should get a status update within 24 hours.
+    </string>
+    <string name="rejectMessage">
+        Unfortunately, your profile has been rejected.
+    </string>
+   <!-- <string name="appro">
+        Yay! Your profile has been approved! \n Now,it's time to make some friends
+    </string>-->
+
+
+</resources>
+

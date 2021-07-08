@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.PostDetailActivity">
+
+    <include
+        android:id="@+id/igTool"
+        layout="@layout/toolbar_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.appentus.shedistrict.Utils.CircleImageView
+                        android:id="@+id/ivProfile"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/ic_user"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/app_name"
+                        android:textColor="@android:color/black"
+                        app:layout_constraintBottom_toBottomOf="@id/ivProfile"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ivProfile"
+                        app:layout_constraintTop_toTopOf="@id/ivProfile" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_thin"
+                        android:text="@string/today_8_40_pm"
+                        android:textSize="12sp"
+                        app:layout_constraintEnd_toEndOf="@id/tvName"
+                        app:layout_constraintStart_toStartOf="@id/tvName"
+                        app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+
+
+                    <TextView
+                        android:id="@+id/tvCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="12sp"
+                        android:layout_margin="16dp"
+                        android:textColor="@android:color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ivProfile" />
+
+
+                    <ImageView
+                        android:id="@+id/ivImages"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dummy_img"
+                        app:layout_constraintTop_toBottomOf="@id/tvCategory" />
+
+
+
+
+                    <TextView
+                        android:id="@+id/tvDis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:padding="6dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ivImages" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tvSendHer"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="?selectableItemBackground"
+                        android:fontFamily="@font/roboto_regular"
+                        android:padding="6dp"
+                        android:scaleType="centerCrop"
+                        android:text="Send her a message to learn more !"
+                        android:textColor="@android:color/black"
+                        app:layout_constraintEnd_toEndOf="@id/tvDis"
+                        app:layout_constraintStart_toStartOf="@id/tvDis"
+                        app:layout_constraintTop_toBottomOf="@id/tvDis" />
+
+
+                    <TextView
+                        android:id="@+id/tvPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/btn_background"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="16dp"
+                        android:text="@string/submit"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@id/tvDis"
+                        app:layout_constraintStart_toStartOf="@id/tvDis"
+                        app:layout_constraintTop_toBottomOf="@id/tvSendHer" />
+
+
+                    <TextView
+                        android:id="@+id/tvEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/btn_white_background"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="16dp"
+                        android:text="Edit"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@id/tvDis"
+                        app:layout_constraintStart_toStartOf="@id/tvDis"
+                        app:layout_constraintTop_toBottomOf="@id/tvPreview"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>
